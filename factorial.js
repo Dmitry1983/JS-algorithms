@@ -1,6 +1,6 @@
 factorial = (x) => {
   // recursiya
-  if (x === 1) {
+  if (x === 0) {
     return 1;
   }
   return x * factorial(x - 1);
